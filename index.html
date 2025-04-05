@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#home">
+            <img src="images/logo 3.png" alt="Dev Portfolio Logo">
+
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="buttons-container">
+          <a href="login.html" class="btn btn-sm btn-secondary">Login</a>
+          <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+          <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="highlight">Arbias Asik</span></h1>
+          <h2>I'm a <span class="typing"></span></h2>
+          <p>A passionate full-stack developer creating impactful web experiences.</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+            <a href="#projects" class="btn btn-secondary">My Work</a>
+          </div>
+          <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <!-- <div class="hero-image">
+          <img src="img/hero.svg" alt="Developer Illustration">
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-img">
+          <img src="images/ph.jpg" alt="Profile Picture">
+        </div>
+        <div class="about-text">
+          <h3>Full Stack Developer & UI/UX Designer</h3>
+          <p>I'm a passionate developer with over 5 years of experience in building web applications. I specialize in
+            JavaScript, React, and Node.js, creating responsive and intuitive user interfaces.</p>
+          <p>My goal is to build products that are both functional and beautiful, focusing on user experience and clean
+            code architecture.</p>
+          <div class="about-info">
+            <div class="info-item">
+              <span>Name:</span>
+              <span>Arbias Asik</span>
+            </div>
+            <div class="info-item">
+              <span>Email:</span>
+              <span>Asik@example.com</span>
+            </div>
+            <div class="info-item">
+              <span>Location:</span>
+              <span>Dinajpur, Bangladesh</span>
+            </div>
+            <div class="info-item">
+              <span>Freelance:</span>
+              <span>Available</span>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Skills</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="skills-container">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h3>HTML5</h3>
+          <div class="skill-progress">
+            <div class="progress" data-value="95%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h3>CSS3</h3>
+          <div class="skill-progress">
+            <div class="progress" data-value="90%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-js"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <div class="skill-progress">
+            <div class="progress" data-value="85%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-react"></i>
+          </div>
+          <h3>React</h3>
+          <div class="skill-progress">
+            <div class="progress" data-value="10%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-node-js"></i>
+          </div>
+          <h3>Node.js</h3>
+          <div class="skill-progress">
+            <div class="progress" data-value="10%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3>MongoDB</h3>
+          <div class="skill-progress">
+            <div class="progress" data-value="5%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Projects</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Design</button>
+        <button class="filter-btn" data-filter="app">App Development</button>
+        <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+      </div>
+      <div class="projects-container">
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <img
+              src="https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+              alt="E-commerce Website">
+          </div>
+          <div class="project-content">
+            <h3>E-commerce Website</h3>
+            <p>A modern e-commerce platform built with React and Node.js</p>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">View Demo</a>
+              <a href="#" class="btn btn-sm btn-secondary">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="app">
+          <div class="project-img">
+            <img
+              src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1036&q=80"
+              alt="Task Management App">
+          </div>
+          <div class="project-content">
+            <h3>Task Management App</h3>
+            <p>A productivity app with drag and drop interface</p>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">View Demo</a>
+              <a href="#" class="btn btn-sm btn-secondary">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="ui">
+          <div class="project-img">
+            <img
+              src="https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1101&q=80"
+              alt="Travel App UI Design">
+          </div>
+          <div class="project-content">
+            <h3>Travel App UI Design</h3>
+            <p>A beautiful UI design for a travel mobile application</p>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">View Demo</a>
+              <a href="#" class="btn btn-sm btn-secondary">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <img
+              src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1026&q=80"
+              alt="Recipe Finder Website">
+          </div>
+          <div class="project-content">
+            <h3>Recipe Finder Website</h3>
+            <p>A website to search and save your favorite recipes</p>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">View Demo</a>
+              <a href="#" class="btn btn-sm btn-secondary">View Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact Me</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Dinajpur</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>asik@example.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>+1 123 456 7890</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h3>Working Hours</h3>
+              <p>Monday - Friday: 9am - 5pm</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="input-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="input-group">
+            <input type="text" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="input-group">
+            <textarea id="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Asik Portfolio. All Rights Reserved.</p>
+        <div class="social-links">
+          <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="scroll-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
